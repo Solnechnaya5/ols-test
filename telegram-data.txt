@@ -1,0 +1,9 @@
+Data for sending emails to telegram
+$token = '6260910755:AAFH5UtS8ku_uh2WFfkaHNpFXyf9cCCvlt4';
+$chatid = '-1001931850053';
+
+
+FTP доступ до сервака
+Username onelogicsoft 
+Pass Onelogicsoft_ftp_2023
+ftp.onelogicsoft.com port 21

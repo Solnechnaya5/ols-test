@@ -1,0 +1,22 @@
+.expertise-block.banking:hover,
+.expertise-block.logisticts:hover,
+.expertise-block.banking:focus,
+.expertise-block.logisticts:focus,
+.expertise-block.retail:hover,
+.expertise-block.retail:focus,
+.expertise-block.automotive:hover,
+.expertise-block.automotive:focus{
+    min-height: 155px;
+    box-shadow: none;
+}
+.expertise-block__text{
+  display: none;
+}
+.expertise__text-list{
+ display: block;
+}
+.reusouces-countries {
+  right: 0;
+  left: auto;
+
+}

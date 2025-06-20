@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+/src/*.html
+/src/scss/out/style.css
+/src/css/*.css
+/src/js/script.min.js
+www/
+build/
+img/

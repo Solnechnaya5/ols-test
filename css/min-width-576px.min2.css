@@ -1,0 +1,151 @@
+.container,
+.header__container {
+    max-width: 550px;
+}
+.col-sm-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.header__menu,
+.header__social {
+    width: 100%;
+    max-width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer__top-section:nth-child(n + 3) {
+    margin-bottom: 0;
+}
+.product-slider__img--preview {
+    max-height: 400px;
+}
+.features-2__item-content {
+    width: 384px;
+}
+.features-2__carousel-nav.next {
+    display: block !important;
+    right: 0;
+    top: 20%;
+    z-index: 1;
+}
+.stackflow-2__actions {
+    display: -ms-flexbox;
+    display: flex;
+}
+.stackflow-2__actions > * + * {
+    margin-top: 0;
+    margin-left: 16px;
+}
+/* styles 2025 */
+
+.bg-green_1.welcome-content {
+    background: #93c704;
+    height: 550px;
+}
+.welcome-section .page-container{
+    margin-top: 0;
+}
+.about-animation {
+    margin-left: auto;
+    margin-right: auto;
+}
+.technologies-blocks{
+    justify-content: start;
+}
+/* cooperation models */
+/* додати анімаці для випадання на мобільих */
+/* .types-right,
+.types{
+    display: flex;
+    flex-direction: column;
+} */
+.type-block__information-bottom {
+    /* display: none; */
+    flex-direction: column;
+    position: absolute;
+ top:-1000%;
+ left: 0;
+    z-index: 1;
+    opacity: 0;
+    padding: 24px 16px;
+    transition: all 1s ease-in;
+}
+.type-block__information-right,
+.type-block__information-right.active{
+    width: 628px;
+    position: absolute;
+  
+    z-index: 1;
+    opacity: 0;
+    transition: all 1.5s ease-in;
+}
+/* .type-block:hover .type-block__information-right, */
+.type-block:hover .type-block__information-bottom{
+    position: absolute;
+    z-index: 50;
+    opacity: 1;
+    transition: all 1s ease-out;
+}
+.margin-block{
+    position: relative;
+    z-index: 1;
+}
+/* індивідуальні висоти при ховері кожного блоку */
+.type-block:nth-of-type(1) .type-block__information-bottom,
+.type-block:nth-of-type(1):hover .type-block__information-bottom,
+.type-block:nth-of-type(1):focus .type-block__information-bottom,
+.type-block__information-bottom:nth-of-type(1):hover{
+    top: 596px
+}
+.type-block:nth-of-type(1):hover ~ .margin-block,
+.type-block__information-bottom:nth-of-type(1):hover ~ .margin-block{
+    height:950px;
+}
+.type-block:nth-of-type(2) .type-block__information-bottom,
+.type-block:nth-of-type(2):hover .type-block__information-bottom{
+    top: 496px
+}
+.type-block:nth-of-type(2):hover ~ .margin-block {
+    height: 1090px;
+}
+.type-block:nth-of-type(3) .type-block__information-bottom,
+.type-block:nth-of-type(3):hover .type-block__information-bottom{
+    top: 396px
+}
+.type-block:nth-of-type(3):hover ~ .margin-block {
+    height: 840px;
+}
+.type-block:nth-of-type(4) .type-block__information-bottom,
+.type-block:nth-of-type(4):hover .type-block__information-bottom{
+    top: 296px
+}
+.type-block:nth-of-type(4):hover ~ .margin-block {
+    height: 1170px;
+}
+.type-block:nth-of-type(5) .type-block__information-bottom,
+.type-block:nth-of-type(5):hover .type-block__information-bottom{
+    top: 196px
+}
+.type-block:nth-of-type(5):hover ~ .margin-block {
+    height: 1090px;
+}
+.type-block:nth-of-type(6) .type-block__information-bottom,
+.type-block:nth-of-type(6):hover .type-block__information-bottom{
+    top: 96px
+}
+.type-block:nth-of-type(6):hover  ~ .margin-block{
+    height: 1140px;
+}
+
+
+
+
+.type-block:hover .type-block__top{
+    background: rgb(62, 62, 62);
+}
+.type-block:hover .type-block__top .type-name,
+.type-block:hover.type-block__top .type-description {
+    color: rgb(255, 255, 255);
+}
+/*  */
