@@ -15,7 +15,7 @@ const startAnimations = () => {
 };
 
 const stopAnimations = () => {
-    // Видаляємо класи анімації, коли елемент виходить із видимості
+   
     document.querySelector('.cube-1').classList.remove('cube1-animate');
     document.querySelector('.cube-2').classList.remove('cube2-animate');
     document.querySelector('.cube-3').classList.remove('cube3-animate');
@@ -28,10 +28,10 @@ const stopAnimations = () => {
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            // Коли блок у зоні видимості
+           
             startAnimations();
         } else {
-            // Коли блок виходить із зони видимості
+          
             stopAnimations();
         }
     });
